@@ -1,7 +1,7 @@
 import {
-  eachDayOfInterval,
-  parseISO,
   format,
+  parseISO,
+  eachDayOfInterval,
 } from 'date-fns'
 
 export function formatDateWithMask(date: string, mask = 'yyyy/MM') {
