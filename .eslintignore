@@ -4,7 +4,3 @@ node_modules
 dist
 # don't lint nyc coverage output
 coverage
-
-/prisma/client/
-/prisma/generated/
-/src/types/resolvers.ts
