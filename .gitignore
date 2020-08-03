@@ -1,0 +1,15 @@
+/node_modules
+
+/.idea
+/idea
+.idea
+
+npm-debug.log
+.env
+.DS_Store
+
+/output/**/*
+/apify_storage
+
+/build
+/dist
