@@ -15,6 +15,7 @@
     "apify": "^0.21.0",
     "date-fns": "^2.14.0",
     "dotenv": "^8.2.0",
+    "lodash": "^4.17.19",
     "ts-node": "^8.10.1"
   },
   "devDependencies": {
