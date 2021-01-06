@@ -8,7 +8,7 @@ npm-debug.log
 .env
 .DS_Store
 
-/output/**/*
+/output/**/*.csv
 /apify_storage
 
 /build
