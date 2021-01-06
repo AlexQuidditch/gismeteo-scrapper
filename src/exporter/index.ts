@@ -1,4 +1,4 @@
-import os from 'os'
+import { EOL } from 'os'
 import fs from 'fs'
 import path from 'path'
 
@@ -21,10 +21,10 @@ export function exportResult(
     row.push(d.morning)
     row.push(d.evening)
 
-    output.push(row.join()) // by default, join() uses a ','
+    output.push(row.join()) // by default, join() uses ','
   })
 
   console.log({ output })
 
-  fs.writeFileSync(filename, output.join(os.EOL))
+  fs.writeFileSync(filename, output.join(EOL))
 }

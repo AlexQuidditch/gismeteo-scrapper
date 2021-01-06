@@ -1,4 +1,4 @@
-import { Scrapper, init } from './scrapper'
+import { Scrapper } from './scrapper'
 import { getUrlsList } from './config'
 import {
   parseDaysFrom,
@@ -45,5 +45,4 @@ function main() {
   }
 }
 
-// init()
 main()
