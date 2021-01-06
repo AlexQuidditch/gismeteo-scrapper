@@ -1,7 +1,14 @@
 {
-  "eslint.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "workbench.colorCustomizations": {
+    "[Atom Material Theme]": {
+      "statusBar.debuggingBackground": "#b71c1c"
+    },
+    "activityBar.background": "#073330",
+    "titleBar.activeBackground": "#094844",
+    "titleBar.activeForeground": "#F0FDFC"
+  }
 }
